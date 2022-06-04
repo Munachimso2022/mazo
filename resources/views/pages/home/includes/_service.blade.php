@@ -29,7 +29,7 @@
 						</div>	
 					</div>							
 				</div> -->
-			@include('pages\profile\_offers')
+			@include('pages.profile._offers')
 			<!-- </div> -->
 			<div class="row mt-5">
 				<div class="col-12 text-center">
