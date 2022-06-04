@@ -1,0 +1,24 @@
+.withdraw-container{
+  margin-top: 7rem;
+}
+
+.withdraw{
+  display: flex;
+  grid-gap: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.withdraw-right, .withdraw-left{
+  width: 50% !important;
+}
+
+@media(max-width:700px){
+  .withdraw{
+    display: flex;
+    flex-direction: column;
+  }
+  .withdraw-right, .withdraw-left{
+    width: 100% !important;
+  }
+}
