@@ -2,7 +2,7 @@
  <div id="content">
 
 <!-- Topbar -->
-@include('dashboard\partials\_top_searchbar')
+@include('dashboard.partials._top_searchbar')
 <!-- End of Topbar -->
 
 <!-- Begin Page Content -->

@@ -10,7 +10,7 @@
 @endsection 
 
 @section('content')
-@include('dashboard\partials\_top_searchbar')
+@include('dashboard.partials._top_searchbar')
 <div style="width: 100%; min-height:100vh; display:block;" class="container" style="min-height: 100vh;">
 
   <table class="table">
@@ -41,7 +41,7 @@
           <!-- <a href="" t class="btn btn-secondary btn-sm">Small button</a> -->
         </td>
       </tr>
-      @include('dashboard\address\_edit_address')
+      @include('dashboard.address._edit_address')
       @endforeach
     </tbody>
   </table>

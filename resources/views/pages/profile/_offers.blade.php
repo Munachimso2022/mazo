@@ -30,7 +30,7 @@
       </div>
     </div>
   </div>
-  @include('pages\profile\_wallet_modal')
+  @include('pages.profile._wallet_modal')
   @endforeach
 
 </div>

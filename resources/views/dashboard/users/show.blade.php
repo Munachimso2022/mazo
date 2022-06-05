@@ -5,7 +5,7 @@
 @endsection 
 
 @section('content')
-@include('dashboard\partials\_top_searchbar')
+@include('dashboard.partials._top_searchbar')
 <div class="container" style="min-height: 100vh;">
   <h3 class="text-center text-dark">User Profile</h3>
   <div class="container">
@@ -104,6 +104,6 @@
   </div>
 </div>
 
-@include('dashboard\users\partials\_blocking_modal')
-@include('dashboard\users\partials\_unblocking_modal')
+@include('dashboard.users.partials._blocking_modal')
+@include('dashboard.users.partials._unblocking_modal')
 @endsection 

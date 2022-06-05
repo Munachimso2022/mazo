@@ -5,7 +5,7 @@
 @endsection 
 
 @section('content')
-@include('dashboard\partials\_top_searchbar')
+@include('dashboard.partials._top_searchbar')
 <div class="container" style="min-height: 100vh;">
 
   <table class="table">
@@ -37,7 +37,7 @@
           <button  class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#delete-{{$offer->id}}">Delete</button>
         </td>
       </tr>
-      @include('dashboard\offers\_modal')
+      @include('dashboard.offers._modal')
       @endforeach
     </tbody>
   </table>
