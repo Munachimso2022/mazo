@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-  @include('pages\blog\include\_banner')
-  @include('pages\blog\include\_blog')
+  @include('pages.blog.include._banner')
+  @include('pages.blog.include._blog')
   @include('partials._footer')
 @endsection 

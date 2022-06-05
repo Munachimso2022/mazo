@@ -30,7 +30,7 @@
               <div class="">{{$add->wallet_add}}</div>
               <div><button class="btn btn-sm" data-toggle="modal" data-target="#delete-{{$add->id}}">Delete</button></div>
             </li>
-            @include('pages\fund\_delete_modal')
+            @include('pages.fund._delete_modal')
           @endforeach
         </ul>
 
@@ -46,7 +46,7 @@
                    <p class="text-dark">You have a pending withdrawal request for ${{$drawal->amount}} to {{$drawal->add}}</p>
                    <button type="button" data-toggle="modal" data-target="#cancel-{{$drawal->id}}" class="btn btn-sm">Cancel</button>
                 </li>
-                @include('pages\fund\_cancel_modal')
+                @include('pages.fund._cancel_modal')
               @endforeach
             </ul>
             @endif
@@ -76,5 +76,5 @@
   </div>
 
 
-@include('pages\fund\_modals')
+@include('pages.fund._modals')
 @endsection
