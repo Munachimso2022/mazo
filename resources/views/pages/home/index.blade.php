@@ -19,6 +19,8 @@
 
   @include('pages.home.includes._blog')
 
+  @include('partials._footer')
+
   
 
 @endsection
