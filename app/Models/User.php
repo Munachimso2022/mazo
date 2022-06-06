@@ -13,7 +13,7 @@ use App\Models\Offer;
 
 
 
-class User extends \TCG\Voyager\Models\User
+class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 

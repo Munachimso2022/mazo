@@ -4,7 +4,7 @@
 					<div class="col-lg-8 col-md-12 col-sm-12 col-12">
 						<div class="info-menu">
 							<ul>
-								<li><a href="#"><i class="icofont icofont-time"></i> Opening Hours - Mon to Sat: 9AM to 5PM</a></li>
+								<li><a href="#"><i class="icofont icofont-time"></i> Active Hours -  24/7</a></li>
 							</ul>
 						</div>
 					</div>

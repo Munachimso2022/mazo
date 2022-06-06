@@ -5,15 +5,15 @@
 						<div class="col-lg-9 d-none d-lg-block d-md-none">
 							<nav class="navbar navbar-expand-lg justify-content-left">
 								<ul class="navbar-nav">
-								   <li class="dropdown"><a href="index-2.html" class="active nav-link">Home</a>
-										<ul class="dropdown-menu">
+								   <li class="dropdown"><a href="/" class="active nav-link">Home</a>
+										<!-- <ul class="dropdown-menu">
 											<li><a href="index-2.html">Home 1</a></li>
 											<li><a href="index-3.html">Home 2</a></li>
 											<li><a href="index-4.html">Home 3</a></li>
 											<li><a href="index-5.html">Home 4</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="dropdown"><a class="nav-link" href="#">Pages</a>
+									<li class="dropdown"><a class="nav-link" href="">Pages</a>
 										<ul class="dropdown-menu">
 											<li><a href="/about">About Us</a></li>
 											<li><a href="/team">Our Team</a></li>
@@ -25,7 +25,7 @@
 											<!-- <li><a href="error.html">404</a></li> -->
 										</ul>
 									</li>
-									<li class="dropdown"><a href="service.html" class="nav-link">Services</a>
+									<!-- <li class="dropdown"><a href="" class="nav-link">Services</a>
 										<ul class="dropdown-menu">
 											<li><a href="service.html">Our All Services</a></li>
 											<li><a href="single-service.html">Bitcoin Trading</a></li>
@@ -33,7 +33,7 @@
 											<li><a href="single-service.html">Bitcoin & Ethereum</a></li>
 											<li><a href="single-service.html">Cryptocurrency</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<!-- <li class="dropdown"><a href="service.html" class="nav-link">Shop</a>
 										<ul class="dropdown-menu">
 											<li><a href="shop.html">Our Products</a></li>
@@ -50,7 +50,7 @@
 											<!-- <li><a href="exchange.html">Exchange</a></li> -->
 										</ul>
 									</li>
-									<li class="dropdown"><a href="blog.html" class="nav-link">News</a>
+									<li class="dropdown"><a href="/blog" class="nav-link">News</a>
 										<ul class="dropdown-menu">
 											<li><a href="/blog">Latest News</a></li>
 											<!-- <li><a href="single-blog.html">Single News</a></li> -->
