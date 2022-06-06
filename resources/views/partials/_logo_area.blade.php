@@ -15,7 +15,7 @@
 								<i class="fa fa-envelope-open"></i>
 							</div>
 							<p>Email Us</p>
-                            <h6>info@yoursite.com</h6>
+                            <h6>exec@mazoneinvest.co</h6>
                         </div>
 						<div class="header-info-box">
                             <div class="header-info-icon">
