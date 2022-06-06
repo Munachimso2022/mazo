@@ -5,15 +5,15 @@
 						<div class="col-lg-9 d-none d-lg-block d-md-none">
 							<nav class="navbar navbar-expand-lg justify-content-left">
 								<ul class="navbar-nav">
-								   <li class="dropdown"><a href="index-2.html" class="active nav-link">Home</a>
-										<ul class="dropdown-menu">
+								   <li class="dropdown"><a href="/" class="active nav-link">Home</a>
+										<!-- <ul class="dropdown-menu">
 											<li><a href="index-2.html">Home 1</a></li>
 											<li><a href="index-3.html">Home 2</a></li>
 											<li><a href="index-4.html">Home 3</a></li>
 											<li><a href="index-5.html">Home 4</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="dropdown"><a class="nav-link" href="#">Pages</a>
+									<li class="dropdown"><a class="nav-link" href="">Pages</a>
 										<ul class="dropdown-menu">
 											<li><a href="/about">About Us</a></li>
 											<li><a href="/team">Our Team</a></li>
