@@ -17,7 +17,7 @@
     <form action="{{route('login')}}" method="POST" class="form mb-5">
       @csrf 
       <div class="form-group mt-4">
-        <h3 class="text-center">Log into Your BitFonix Account</h3>
+        <h3 class="text-center">Log into Your Mazoneinvest Account</h3>
       </div>
       @include('partials._settings_message')
    

@@ -18,10 +18,10 @@
 									<img class="img-fluid rounded-circle" src="{{asset('img/team/person1.jpg')}}" alt="">
 								</div>
 								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>I never thought investment can be so real and swift. Cryptocurrency is a saviour for life and Mazoneinvest is palatable.</p>
 								</div>
 								<div class="single-testimonial-meta">
-									<p>- Jone Doe</p>
+									<p>- Sonya Harvey</p>
 								</div>
 							</div>
 							<!-- end single testimonial -->
@@ -30,10 +30,10 @@
 									<img class="img-fluid rounded-circle" src="assets/img/team/person2.jpg" alt="">
 								</div>
 								<div class="single-testimonial-content">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>This is the best platform so far. And it has changed my life, I can assure you to keep your fears aside and invest here, I'll keep referring my friends here </p>
 								</div>
 								<div class="single-testimonial-meta">
-									<p>- Hash Theme</p>
+									<p>- Denzel Lee</p>
 								</div>
 							</div>
 							<!-- end single testimonial -->

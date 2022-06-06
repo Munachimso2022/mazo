@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/favicon.ico')}}" />
-    <title>Bitfonix - Bitcoin And Crypto Currency HTML Template</title>
+    <title>Mazoneinvest - Bitcoin And Crypto Currency HTML Template</title>
     <!-- Bootstrap core CSS -->
     <link href="{{asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Google Font  -->
@@ -46,7 +46,7 @@
 
 	<!-- START PRELOADER -->
 	<div id="page-preloader">
-		<div class="theme-loader">Bitfonix</div>
+		<div class="theme-loader">Mazoneinvest</div>
 	</div>
 	<!-- END PRELOADER --> 
 	
