@@ -6,7 +6,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>Market Data</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>Understand the market and knwo peace</p>
 						</div>
 					</div>
 				</div>

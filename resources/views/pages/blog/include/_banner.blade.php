@@ -6,7 +6,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>Latest Post</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>Dream. Drive. Deliver</p>
 						</div>
 					</div>
 				</div>

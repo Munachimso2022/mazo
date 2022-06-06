@@ -5,15 +5,15 @@
 					<div class="blockquote-wrapper">
 						<span class="blockquote-line"></span>
 						<blockquote class="blockquote">
-							<p><i class="icofont icofont-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit Inte posuere erat a ante sed do eiusd tempor incididunt ut et dolore magna aliqua. <i class="icofont icofont-quote-right"></i></p>
-							<footer class="blockquote-footer">Jone Doe, <cite title="Source Title">Florida, USA</cite></footer>
+							<p><i class="icofont icofont-quote-left"></i> This company is really moving higher, any investor that invested in the platform must have a testimony let's keep investing and keep winning. <i class="icofont icofont-quote-right"></i></p>
+							<footer class="blockquote-footer">Lori Donald, <cite title="Source Title">Florida, USA</cite></footer>
 						</blockquote>
 						<div class="single-blog-hadmin">
 							<div class="single-blog-hadmin-img">
 								<img class="img-fluid rounded-circle" src="{{asset('img/team/person2.jpg')}}" alt="">
 							</div>
 							<div class="single-blog-hadmin-info">
-								<p>Hash Theme</p>
+								<p>H. M Clarke</p>
 								<span>Web Development</span>
 							</div>
 						</div>
@@ -31,7 +31,7 @@
 									<img class="img-fluid" src="{{asset('img/clients/4.png')}}" alt="">
 								</div>
 								<div class="image-two-des">
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illodrut inventore veritatis et quasi architecto beatae vitae dicta sunt. </p>
+									<p>What more does an investor want if not the joy of getting Return Of Investment when due. Here is a platform with no pending withdrawals and no hidden charges. </p>
 								</div>
 								<div class="image-two-rem text-right">
 									<a href="#"><i class="icofont icofont-long-arrow-right"></i></a>

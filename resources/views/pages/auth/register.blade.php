@@ -17,7 +17,7 @@
     <form action="{{route('register')}}" method="POST" class="form mb-5">
       @csrf 
       <div class="form-group mt-4">
-        <h3 class="text-center">Create a BitFonix Account</h3>
+        <h3 class="text-center">Create a Mazoneinvest Account</h3>
       </div>
       @include('partials._message')
       <div class="form-group mt-4">

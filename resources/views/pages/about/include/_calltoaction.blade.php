@@ -4,7 +4,7 @@
 				<div class="col-12 text-center">
 					<div class="calltoaction-two-wrap mb-4">
 						<h4 class="text-uppercase">Need More Service?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+						<p>We make it our business to know what's important to you. Kindly hit our 24/7 live chat button.<br></p>
 					</div>
 					<a href="#" class=" wow fadeInDown btn-style btn-border btn-border-3">Contact Us <i class="icofont icofont-hand-right"></i></a>
 				</div>

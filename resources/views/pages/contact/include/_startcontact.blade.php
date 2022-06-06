@@ -4,7 +4,7 @@
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>response with in minute</h5>
-						<h3>Contact <span>Bitfonix</span></h3>
+						<h3>Contact <span>Mazoneinvest</span></h3>
 					</div>
 				</div>
 			</div>
@@ -17,8 +17,8 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Write a mail</h4>
-							<p>Email: info@yoursite.com</p>
-							<p>Email: info@yourname.com</p>
+							<p>Email: exec@mazoneinvest.co</p>
+							<p>Email: admin@mazoneinvest.com</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">quick Send</a>
@@ -49,7 +49,7 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Visit our location</h4>
-							<p>Address: 10004, Battery Park, New York, USA </p>
+							<p>3 Seymour St, Chorley PR6 ORR, United Kingdom</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">find Direction</a>
@@ -64,7 +64,7 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Lets's have a chat</h4>
-							<p>Telephone: 123-456-0975</p>
+							<p>Telegram: https://t.me/mazoneinvestadmin </p>
 							<p>Fax: 321-654-0975</p>
 						</div>
 						<div class="single-address-link">

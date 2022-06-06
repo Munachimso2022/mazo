@@ -24,9 +24,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Ben Fredrick</h4>
+								<span>Founder & Exec</span>
+								<p>He is an astute lover and preacher of Financial Freedom...</p>
 							</div>	
 						</div>							
 					</div>
@@ -44,9 +44,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Lori Davis</h4>
+								<span>Chief Analyst</span>
+								<p>She believes cypto-market can actually be predictable if the necessary factors are considered...</p>
 							</div>	
 						</div>							
 					</div>
@@ -64,9 +64,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Forster J. Coleman</h4>
+								<span>Market Analyst 2</span>
+								<p>"No expert can pause flunctuation in market but with depth knowledge one can escape red candlestick."</p>
 							</div>	
 						</div>							
 					</div>
@@ -84,9 +84,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Helen Madiba</h4>
+								<span>Lead Market</span>
+								<p>https://t.me/helenofzulus</p>
 							</div>	
 						</div>							
 					</div>
@@ -104,9 +104,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Alan Chardwick</h4>
+								<span>Social Media Admin</span>
+								<p>https://t.me/mazoneinvestadmin</p>
 							</div>	
 						</div>							
 					</div>
