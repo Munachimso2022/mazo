@@ -13,7 +13,7 @@ use App\Models\Offer;
 
 
 
-class User
+class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
