@@ -10,7 +10,7 @@
                                  <i class="fab fa-gg-circle"></i>
                                 </div>
 								<div class="footer-logo-text">
-                                    <h3>Bitfonix</h3>
+                                    <h3>Mazoneinvest</h3>
                                     <p>Bitcoin Trading Template</p>
                                 </div>
 							</a>
@@ -88,8 +88,8 @@
 									<i class="icofont icofont-pin"></i>
 								</div>
 								<div class="single-fcontact-des">
-									<h6>Compnay Name:</h6>
-									<p>10004, Battery Park, New York, USA </p>
+									<h6>Mazoneinvest Company</h6>
+									<p>3 Seymour St, Chorley PR6 ORR, United Kingdom </p>
 								</div>
 							</div>
 							<div class="single-fcontact mb-2">
@@ -107,7 +107,7 @@
 								</div>
 								<div class="single-fcontact-des">
 									<h6>Door Open:</h6>
-									<p>Mon - Sun : 09:00 - 18:00</p>
+									<p>24/7</p>
 								</div>
 							</div>
 						</div>

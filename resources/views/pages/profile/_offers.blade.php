@@ -18,7 +18,7 @@
 
           <div id="descr-{{$offer->id}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+              Some placeholder content for the first according to panel. This panel is shown by default, thanks to the <code>.show</code> class.
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>our masters</h5>
-						<h3>Bitfonix <span>Expert</span></h3>
+						<h3>Mazoneinvest <span>Expert</span></h3>
 					</div>
 				</div>
 			</div>
@@ -25,9 +25,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Davis Gerrald</h4>
+								<span>Founder, CEO</span>
+								<p>He is an astute believer and preacher of Financial Freedom</p>
 							</div>	
 						</div>							
 					</div>
@@ -45,9 +45,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Lori S. Lee</h4>
+								<span>Co-founder</span>
+								<p>With believable approache to the indices of the market; the market can be yours.</p>
 							</div>	
 						</div>							
 					</div>
@@ -65,9 +65,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Frederick Forester</h4>
+								<span>Chief Analyst</span>
+								<p>Every market leaves hint of what its next move is; you simple didn't look for the hint.</p>
 							</div>	
 						</div>							
 					</div>
@@ -85,9 +85,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Bishen Ketty</h4>
+								<span>Lead Market</span>
+								<p>Nothing happens in the market accidental, keep your eyes on the ground.</p>
 							</div>	
 						</div>							
 					</div>
@@ -105,9 +105,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Harcot Monteen</h4>
+								<span>Sales Rep</span>
+								<p>Actually, it's market that responds to us not vice versa.</p>
 							</div>	
 						</div>							
 					</div>

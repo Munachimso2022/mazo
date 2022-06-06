@@ -5,7 +5,7 @@
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>what we do</h5>
-						<h3>Bitfonix <span>Services</span></h3>
+						<h3>Mazoneinvest <span>Services</span></h3>
 					</div>
 				</div>
 			</div>

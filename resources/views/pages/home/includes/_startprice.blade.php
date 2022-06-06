@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<div class="section-title">
-						<h5>Bitfonix packages</h5>
+						<h5>Mazoneinvest packages</h5>
 						<h3>Our <span>Pricing</span></h3>
 					</div>
 				</div>

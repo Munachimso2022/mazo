@@ -14,7 +14,7 @@
           @csrf 
           <div class="form-group mt-3">
             <b class="text-center text-dark">
-              Copy one of the address below and send USD equivalent of the entered amount to it.
+              Copy one of the address below and send coin/USD equivalent of the entered amount to it.
             </b>
           </div>
           <div class="form-group mt-3">

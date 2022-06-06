@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<div class="section-title">
-						<h5>Bitfonix conversation</h5>
+						<h5>Mazoneinvest conversation</h5>
 						<h3>Trade Bitcoin <span>With Us</span></h3>
 					</div>
 				</div>

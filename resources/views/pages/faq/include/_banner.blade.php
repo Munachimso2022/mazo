@@ -5,7 +5,7 @@
 					<div class="col-12 text-center">
 						<div class="single-page-title">
 							<h2>Freequently Asked Question</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p>Your Dream, Your Drive. We Deliver.</p>
 						</div>
 					</div>
 				</div>

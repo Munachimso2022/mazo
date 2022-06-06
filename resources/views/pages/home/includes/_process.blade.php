@@ -18,7 +18,7 @@
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Trading Strategy</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>Mazoneinvest Company adopts several cryptocurrency trading strategies, owning to  the flunctuation of the market. Trading Strategies ranging from Day Trading through scalping to HFT (High-Frequency Trading)</p>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Group Planing</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>It's our mission and belief that Together Everyone Achieves More (TEAM), we bring togethr our divergent expertise together, analyze the market and come up with profitable offers. Join Us Now! </p>
 						</div>
 					</div>
 				</div>
@@ -42,7 +42,7 @@
 						</div>
 						<div class="single-wprocess-text">
 							<h5>Final Success</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<p>A well planned journey ends up in safe landing. Having put our resources together and looked deeply into the market, we're able to predict most times correcty the next turn of the market which amounts in beleivable success.</p>
 						</div>
 					</div>
 				</div>

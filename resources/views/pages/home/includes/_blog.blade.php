@@ -25,11 +25,11 @@
 							<img class="img-fluid" src="{{asset('img/blog/2.jpg')}}" alt="">
 						</div>
 						<div class="single-blog-hdec">
-							<a href="#"><h5>Final Testing for ETC Support on Bitfonix</h5></a>
-							<span class="post-date"><i class="icofont icofont-calendar"></i> 17 Dec 2018</span>
+							<a href="#"><h5>Final Testing for BTC Support on Mazoneinvest</h5></a>
+							<span class="post-date"><i class="icofont icofont-calendar"></i> 17 Feb 2018</span>
 							<span class="post-comment"><i class="fa fa-comment"></i> 3 comments</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							Investment over the years had been a thing of the rich that required a reasonable amount of dollars thereby depriving a lot of people the privilege to pursue career in investment industry. Until Cryptocurrency came, investment industry took a different dimension and brought it down to low budget and class of people. This makes it possible to start small and grow over time or as much as ones effort towards his investment. This further introduced what is called, Passive Income to the lowest citizens of the world. Passive Income is money or wealth generated with or without the person's presence and it's progressive.
 								<a href="#">[...]</a>
 							</p>
 							<div class="single-blog-hadmin">
@@ -37,7 +37,7 @@
 									<img class="img-fluid rounded-circle" src="{{asset('img/team/person1.jpg')}}" alt="">
 								</div>
 								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
+									<p>By: <span>Vannessa Jones</span>for <span>TRADING</span></p>
 								</div>
 							</div>
 						</div>
@@ -50,11 +50,11 @@
 							<img class="img-fluid" src="{{asset('img/blog/1.jpg')}}" alt="">
 						</div>
 						<div class="single-blog-hdec">
-							<a href="#"><h5>What we accomplished at Coinbase in 2018</h5></a>
-							<span class="post-date"><i class="icofont icofont-calendar"></i> 18 Dec 2018</span>
-							<span class="post-comment"><i class="fa fa-comment"></i> 5 comments</span>
+							<a href="#"><h5>What we accomplished at Coinbase in 2019</h5></a>
+							<span class="post-date"><i class="icofont icofont-calendar"></i> 18 Dec 2019</span>
+							<span class="post-comment"><i class="fa fa-comment"></i> 54 comments</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							A formal discipline that studies protocols that govern the production, distribution, and consumption of goods and services in a decentralized digital economy. Cryptoeconomics is a practical science that focuses on the design and characterization of these protocols. The Blockchain technology runs on the principles of cryptoeconomics.
 								<a href="#">[...]</a>
 							</p>
 							<div class="single-blog-hadmin">
@@ -62,7 +62,7 @@
 									<img class="img-fluid rounded-circle" src="{{asset('img/team/person2.jpg')}}" alt="">
 								</div>
 								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
+									<p>By: <span>Spanner Jessey</span>for <span>TRADING</span></p>
 								</div>
 							</div>
 						</div>
@@ -75,11 +75,11 @@
 							<img class="img-fluid" src="{{asset('img/blog/3.jpg')}}" alt="">
 						</div>
 						<div class="single-blog-hdec">
-							<a href="#"><h5>Bitfonix Custody is Officially Open For Business</h5></a>
+							<a href="#"><h5>Mazoneinvest Custody is Officially Open For Business</h5></a>
 							<span class="post-date"><i class="icofont icofont-calendar"></i> 19 Dec 2018</span>
-							<span class="post-comment"><i class="fa fa-comment"></i> 4 comments</span>
+							<span class="post-comment"><i class="fa fa-comment"></i> 49 comments</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							Mazoneinvest company is a Crypto Certified Mining Company which is run by a team of stock market experts who trades on behalf of its investor and pays them with a given percentage and commissions with respect to the company's investment plans.
 								<a href="#">[...]</a>
 							</p>
 							<div class="single-blog-hadmin">
@@ -87,7 +87,7 @@
 									<img class="img-fluid rounded-circle" src="{{asset('img/team/person1.jpg')}}" alt="">
 								</div>
 								<div class="single-blog-hadmin-info">
-									<p>By: <span>Jon Doe</span>for <span>TRADING</span></p>
+									<p>By: <span>Tracy Mungo Park (jnr)</span>for <span>TRADING</span></p>
 								</div>
 							</div>
 						</div>

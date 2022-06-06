@@ -4,8 +4,8 @@
 				<div class="row">
 					<div class="col-12 text-center">
 						<div class="single-page-title">
-							<h2>Bitfonix Experts</h2>
-							<p>Lorem ipsum dolor sit amet</p>
+							<h2>Mazoneinvest Experts</h2>
+							<p>Together Everyone Achieves More (TEAM)</p>
 						</div>
 					</div>
 				</div>

@@ -5,7 +5,7 @@
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>Bitcoin Legality</h5>
-						<h3>Why Choose <span>Bitfonix</span></h3>
+						<h3>Why Choose <span>Mazoneinvest</span></h3>
 					</div>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Easy Trading</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>Mazoneinvest Company makes the whole thing easy for. We invest on your behalf. You enjoy zero risk as we bear the whole risk ourself. All you have to do is give us your capital and we swim into the market and get back to you with profits. No pending withdrawl, no hidden charges; just INVEST!</p>
 								</div>
 							</div>
 						</div>
@@ -32,7 +32,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Trading Strategy</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>With our experts coming together, we employ all the trading strategies where necessary. Mazoneinvest Company adopts strategies ranging from Day Trading throuigh Scalping to HFT (High-Frequency Trading.</p>
 								</div>
 							</div>
 						</div>
@@ -44,7 +44,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Money Exchange</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>We employ mordern technology to make your journey to the apex of financial independency swift and smooth. We take youi by the hand and place you face-to-face with your goals.</p>
 								</div>
 							</div>
 						</div>
@@ -56,7 +56,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Security Ensure</h5>
-									<p>Lorem ipsum dolor sit ametelid consectetur adipiscing elit sedd eiusmod tempor.</p>
+									<p>Your Mazoneinvest account is end-to-end encrypted which means that no other person has access to your account but you and/or who you gave your password to. This why you oughht to keep your account details secret, trust nobody. Mazoneinvest will never ask you for your account password. Beware of SCAMMERS</p>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 					<div class="single-wcus-promo">
 						<div class="single-wcus-promo-inner">
 							<h3>We are ready to fly with you.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+							<p>The flieght of a thousand feet begins with a hop. Trust us in this game, we've ben doing it for years and no sad stories. We never dissapoiont. Youir Dream, Your Drive. We Deliver!</p>
 							<a href="#" class="btn-style btn-border btn-border-2">Read More</a>
 						</div>
 					</div>
