@@ -16,7 +16,7 @@
 							</a>
                         </div>
                         <div class="about mb-2">
-                            <p>Lorem ipsum dolor sit ametconsect etur adipiscing elit, sed do eiusmod tempor incididunt ut labo reetdolor emagna aliqua. Ut enim ad minimv eniam, quis nostrud exerc itationul amco laboris nisi ut aliquip exeallg commodo consequat.</p>
+                            <p>Mazoneinvest Company has over the years proven to stand out and stand the test of time amongst other cryptocurrency investment platforms. We are here to serve you best. Let's take you through the ladder of financial freedom.</p>
                         </div>
                         <div class="footer-news">
 							<form action="#">
@@ -40,7 +40,7 @@
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Home Page</a></li>
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Our Members</a></li>
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Client feedback</a></li>
-								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Buy & Sell</a></li>
+								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Invest with Us</a></li>
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Bitcoin Trade</a></li>
 								<li><a href="#"><i class="fa fa-chevron-circle-right"></i> Market Price </a></li>
 							</ul>
@@ -56,23 +56,23 @@
 							<div class="singleRecpost">
 								<img src="assets/img/blog/1.jpg" alt="" class="img-fluid">
 								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
+									<a href="#">This company keeps to her words. Quite different from others.</a>
 								</h6>
-								<p class="posted-on">3 DEC 2018</p>
+								<p class="posted-on">31 DEC 2021</p>
 							</div>
 							<div class="singleRecpost">
 								<img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
 								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
+									<a href="#">Hey Guys, Thanks for the quick and safe transaction.</a>
 								</h6>
-								<p class="posted-on">4 DEC 2018</p>
+								<p class="posted-on">4 Feb 2022</p>
 							</div>
 							<div class="singleRecpost">
 								<img src="assets/img/blog/3.jpg" alt="" class="img-fluid">
 								<h6 class="recTitle">
-									<a href="#">Lorem ipsum dolor sit amet, consectetuer.</a>
+									<a href="#">It's been a great pleasure to be here. It's a nice one here.</a>
 								</h6>
-								<p class="posted-on">5 DEC 2018</p>
+								<p class="posted-on">5 June 2022</p>
 							</div>
 						</div>
                     </div>
