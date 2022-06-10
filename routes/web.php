@@ -9,6 +9,7 @@ use App\Http\Controllers\SearchController;
 use App\Http\Controllers\TestController;
 use App\Models\User;
 use App\Notifications\HelloUser;
+use App\Services\Helper\Referrer;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\HttpKernel\Profiler\Profile;
@@ -77,6 +78,12 @@ Route::post('/profile/fund/now', [ProfileController::class, 'fund'])->name('prof
 
 Route::get('/test_email', [TestController::class, 'mailTesting']);
 Route::get('test-interest', [TestController::class, 'testInterestPayment']);
+
+Route::get('test-ref',function(){
+    $user = User::find(1);
+    $ref = new Referrer();
+    $ref->generatorAssignCode($user);
+});
 
 require __DIR__.'/auth.php';
 

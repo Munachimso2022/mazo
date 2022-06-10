@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Models\Wallet;
+use App\Notifications\HelloUser;
 use App\Providers\RouteServiceProvider;
+use App\Services\Helper\Referrer;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,13 +38,13 @@ class RegisteredUserController extends Controller
     {
         // var_dump($request->all());die;
         $request->validate([
-            'name' => ['required', 'string', 'max:255'],
+            'username' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
         $user = User::create([
-            'name' => $request->name,
+            'username' => $request->username,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
@@ -51,6 +53,11 @@ class RegisteredUserController extends Controller
         $wallet->user_id = $newuser->id;
         $wallet->balace = 0;
         $wallet->save();
+
+        $newuser->notify(new HelloUser($newuser));
+
+        $refModel = new Referrer();
+        $refModel->generatorAssignCode($newuser, $request->referral_code);
 
         event(new Registered($user));
 

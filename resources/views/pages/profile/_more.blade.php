@@ -7,9 +7,9 @@
 <div style="margin-top: 5rem;" class="container more-container">
   <div class="card personal-card" style="width: 18rem;">
     <div class="card-btns">
-      <button class="btn">
+      <a href="/withdraw" class="btn">
         Withdraw
-      </button>
+      </a>
       <button class="btn btn-fund" data-toggle="modal" data-target="#fund">
         Fund
       </button>

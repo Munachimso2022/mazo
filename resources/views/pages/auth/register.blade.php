@@ -21,12 +21,16 @@
       </div>
       @include('partials._message')
       <div class="form-group mt-4">
-        <label for="" class="form-label">Name</label>
-        <input type="text" name="name" class="form-control">
+        <label for="" class="form-label">Username</label>
+        <input type="text" name="username" class="form-control">
       </div>
       <div class="form-group mt-4">
         <label for="" class="form-label">Email</label>
         <input type="text" name="email" class="form-control">
+      </div>
+      <div class="form-group mt-4">
+        <label for="" class="form-label">Referral Code</label>
+        <input type="text" name="referral_code" class="form-control">
       </div>
       <div class="form-group mt-4">
         <label for="" class="form-label">Password</label>

@@ -20,4 +20,8 @@ class TestController extends Controller
         $interest = $compensate->calculateInterest($due);
         // var_dump($interest);
     }
+
+    public function ref(){
+        
+    }
 }
