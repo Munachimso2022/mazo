@@ -25,7 +25,7 @@
 							</div>
 						</div>
 						<div class="single-service-dec">
-							<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+							<p>We trade not just Bitcoin but all viable cryptocurrencies. Let us trade on your behalf; we bear all the risks for you.</p>
 						</div>	
 					</div>							
 				</div> -->
