@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
     public function mailTesting(){
-        $user = User::find(3);
+        $user = User::find(5);
         $user->notify(new HelloUser($user));
     }
 

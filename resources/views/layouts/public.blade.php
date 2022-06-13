@@ -40,6 +40,7 @@
     <!-- <link rel="stylesheet" href="assets/css/responsive.css"> -->
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
     @yield('head')
+    <script src="//code.jivosite.com/widget/6W193gHGOr" async></script>
 </head>
 
 <body>

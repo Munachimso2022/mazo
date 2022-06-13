@@ -5,9 +5,12 @@
   .btn-custom {
     background-color: grey;
     color: white;
+    
   }
   .container{
     margin-top: 8rem;
+    margin-bottom:7rem !important;
+    padding-bottom: 7rem !important;
   }
 </style>
 @endsection
