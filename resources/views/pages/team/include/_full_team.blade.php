@@ -18,7 +18,7 @@
 							<div class="single-team-meta">
 								<h4>Davis Gerrald</h4>
 								<span>Founder,  CEO</span>
-								<p>Davis studied at London School of Economics and Political Science before proceeding to Durham University and The University of Manchester where he obtained his bachelors, masters and doctorates respectively. He has been in the investment industry for the past 2 decades. He also runs a consultancy company.</p>
+								<p>Davis studied at London School of Economics and Political Science before proceeding to Durham University and The University of Manchester where he obtained his bachelors, masters and doctorates respectively. He has been in the investment industry for the past two decades. He also runs a consultancy company.</p>
 							</div>	
 						</div>							
 					</div>	
@@ -39,7 +39,7 @@
 							</div>
 							<div class="single-team-meta">
 								<h4>Loris Sonya Lee</h4>
-								<span>Co-Fonder</span>
+								<span>Co-Founder</span>
 								<p>Having gathered so many experiences from working with many big investment and insurance companies both in United States and Ireland. Lori's encounter with Davis not only birthed Mazoneinvest Company but also two beautiful kids.</p>
 							</div>	
 						</div>							
@@ -84,7 +84,7 @@
 							<div class="single-team-meta">
 								<h4>Bishen Ketty</h4>
 								<span>Lead Market</span>
-								<p>With over 3 decades of experience in financial and risk managment corridor, Bishen is a figure to be reckoned with in Mazoneinvest Company. In spite of her age, her heart is as young as a teenage heart.</p>
+								<p>With over three decades of experience in financial and risk managment corridor, Bishen is a figure to be reckoned with in Mazoneinvest Company. In spite of her age, her heart is as young as a teenage heart.</p>
 							</div>	
 						</div>							
 					</div>
@@ -128,7 +128,7 @@
 							<div class="single-team-meta">
 								<h4>J.B Rowlings</h4>
 								<span>Account Officer</span>
-								<p>He is an Indian/Russian trained accountant who has 7 years of experience.</p>
+								<p>He is an Indian/Russian trained accountant who has seven years of experience.</p>
 							</div>	
 						</div>							
 					</div>	
