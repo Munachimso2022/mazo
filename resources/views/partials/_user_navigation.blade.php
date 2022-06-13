@@ -19,12 +19,12 @@
 											<!-- <li><a href="error.html">404</a></li> -->
 										</ul>
 									</li>
-									<li class="dropdown"><a href="service.html" class="nav-link">My Profile</a>
+									<li class="dropdown"><a href="" class="nav-link">My Profile</a>
 										<ul class="dropdown-menu">
 											<li><a href="{{route('settings.index')}}">Settings</a></li>
 											<li><a href="">Fund Wallet</a></li>
 											<li><a href="{{route('withdraw')}}">Withdraw</a></li>
-											<li><a href="single-service.html">Invest</a></li>
+											<!-- <li><a href="single-service.html">Invest</a></li> -->
 											<!-- <li><a href="single-service.html">Cryptocurrency</a></li> -->
 										</ul>
 									</li>
