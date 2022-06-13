@@ -21,8 +21,8 @@
                             <div class="header-info-icon">
 								<i class="icofont icofont-phone"></i>
 							</div>
-							<p>Call Us</p>
-                            <h6>123-456-0975</h6>
+							<p>Call/Whatsapp</p>
+                            <h6>+44 7418363838</h6>
                         </div>
 						<div class="header-info-box">
                             <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
