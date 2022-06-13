@@ -16,9 +16,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Davis Gerrald</h4>
+								<span>Founder,  CEO</span>
+								<p>Davis studied at London School of Economics and Political Science before proceeding to Durham University and The University of Manchester where he obtained his bachelors, masters and doctorates respectively. He has been in the investment industry for the past two decades. He also runs a consultancy company.</p>
 							</div>	
 						</div>							
 					</div>	
@@ -38,9 +38,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Loris Sonya Lee</h4>
+								<span>Co-Founder</span>
+								<p>Having gathered so many experiences from working with many big investment and insurance companies both in United States and Ireland. Lori's encounter with Davis not only birthed Mazoneinvest Company but also two beautiful kids.</p>
 							</div>	
 						</div>							
 					</div>
@@ -60,9 +60,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Frederick Forester</h4>
+								<span>Chief Analyst</span>
+								<p>FF as he is fondly called is a strong believer of Financial Freedom (FF) which is interchangable with his name. Frederick has a wealth of knowledge in financial analysis.</p>
 							</div>	
 						</div>							
 					</div>
@@ -82,9 +82,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Bishen Ketty</h4>
+								<span>Lead Market</span>
+								<p>With over three decades of experience in financial and risk managment corridor, Bishen is a figure to be reckoned with in Mazoneinvest Company. In spite of her age, her heart is as young as a teenage heart.</p>
 							</div>	
 						</div>							
 					</div>
@@ -104,9 +104,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Bishen Ketty</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>Harcot Monteen</h4>
+								<span>Sales Rep</span>
+								<p>Harcot is very young and vibrant just as he looks. An Oxford trained high-octane young man; always ready to work to finish.</p>
 							</div>	
 						</div>							
 					</div>
@@ -116,7 +116,7 @@
 					<div class="single-team-wrapper">
 						<div class="single-team">
 							<div class="single-team-img">
-								<img class="img-fluid" src="{{asset('img/team/1.png')}}" alt="">
+								<img class="img-fluid" src="{{asset('img/team/png')}}" alt="Picture On The Way">
 								<div class="single-team-social">
 									<ul>
 									   <li><a class="sicon1" href="#"><i class="icofont icofont-social-facebook"></i></a></li>
@@ -126,9 +126,9 @@
 								</div>
 							</div>
 							<div class="single-team-meta">
-								<h4>Jone Doe</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<h4>J.B Rowlings</h4>
+								<span>Account Officer</span>
+								<p>He is an Indian/Russian trained accountant who has seven years of experience.</p>
 							</div>	
 						</div>							
 					</div>	
@@ -138,7 +138,7 @@
 					<div class="single-team-wrapper">
 						<div class="single-team">
 							<div class="single-team-img">
-								<img class="img-fluid" src="{{asset('img/team/4.png')}}" alt="">
+								<img class="img-fluid" src="{{asset('img/team/png')}}" alt="Picture on the way">
 								<div class="single-team-social">
 									<ul>
 									   <li><a class="sicon1" href="#"><i class="icofont icofont-social-facebook"></i></a></li>
@@ -149,8 +149,8 @@
 							</div>
 							<div class="single-team-meta">
 								<h4>Kwasan Rowy</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<span>Crypto Trade Consultant</span>
+								<p>The lover of cryptocurrencies and Non-Fungible Tokens (NFTs).</p>
 							</div>	
 						</div>							
 					</div>
@@ -160,7 +160,7 @@
 					<div class="single-team-wrapper">
 						<div class="single-team">
 							<div class="single-team-img">
-								<img class="img-fluid" src="{{asset('img/team/2.png')}}" alt="">
+								<img class="img-fluid" src="{{asset('img/team/png')}}" alt="Picture on the way">
 								<div class="single-team-social">
 									<ul>
 									   <li><a class="sicon1" href="#"><i class="icofont icofont-social-facebook"></i></a></li>
@@ -171,8 +171,8 @@
 							</div>
 							<div class="single-team-meta">
 								<h4>Mark Henry</h4>
-								<span>Hash Theme, CEO</span>
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<span>Blockchain Chief Engineer</span>
+								<p>Blockchain technology is the hope and the future.</p>
 							</div>	
 						</div>							
 					</div>
