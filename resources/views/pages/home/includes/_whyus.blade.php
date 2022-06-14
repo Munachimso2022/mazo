@@ -5,7 +5,7 @@
 				<div class="col-12 text-center">
 					<div class="section-title">
 						<h5>Bitcoin Legality</h5>
-						<h3>Why Choose <span>Mazoneinvest</span></h3>
+						<h3>Why Choose <span>Mazoneinvest Company</span></h3>
 					</div>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 								</div>
 								<div class="single-wcus-text">
 									<h5>Security Ensure</h5>
-									<p>Your Mazoneinvest account is end-to-end encrypted which means that no other person has access to your account but you and/or who you gave your password to. This why you oughht to keep your account details secret, trust nobody. Mazoneinvest will never ask you for your account password. Beware of SCAMMERS</p>
+									<p>Your Mazoneinvest account is end-to-end encrypted which means that no other person has access to your account but you and/or who you gave your password to. This why you ought to keep your account details secret, trust nobody. Mazoneinvest will never ask you for your account password. Beware of SCAMMERS</p>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 					<div class="single-wcus-promo">
 						<div class="single-wcus-promo-inner">
 							<h3>We are ready to fly with you.</h3>
-							<p>The flieght of a thousand feet begins with a hop. Trust us in this game, we've ben doing it for years and no sad stories. We never dissapoiont. Youir Dream, Your Drive. We Deliver!</p>
+							<p>The flieght of a thousand feet begins with a hop. Trust us in this game, we've been doing it for years and no sad stories. We never dissappoint. Your Dream, Your Drive. We Deliver!</p>
 							<a href="#" class="btn-style btn-border btn-border-2">Read More</a>
 						</div>
 					</div>

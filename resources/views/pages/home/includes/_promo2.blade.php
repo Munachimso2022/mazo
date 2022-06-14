@@ -16,7 +16,7 @@
 							<img class="img-fluid" src="assets/img/bg/bg8.jpg" alt="">
 						</div>
 						<div class="youtube-promo-video">
-							<a href="https://www.youtube.com/watch?v=OTewW0jWRQM" data-title="Bitfonix PROMO VIDEO" data-vbtype="youtube" class="venobox info vbox-item" data-gall="gallu">
+							<a href="https://www.youtube.com/watch?v=OTewW0jWRQM" data-title="Mazoneinvest PROMO VIDEO" data-vbtype="youtube" class="venobox info vbox-item" data-gall="gallu">
 								<i class="icofont icofont-ui-play"></i>
 							</a>
 						</div>

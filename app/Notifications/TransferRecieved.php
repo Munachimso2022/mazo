@@ -49,7 +49,7 @@ class TransferRecieved extends Notification
             ->line('Your transfer of '.$this->transfer->amount . ' has been recieved and your balance updated.')
             ->line('')
             ->action('Log in to see your balance', url('/login'))
-            ->line('Thank you for using our platform!');
+            ->line('Thank you for choosing our platform!');
     }
 
     /**

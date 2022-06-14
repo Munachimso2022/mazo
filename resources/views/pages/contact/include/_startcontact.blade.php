@@ -32,9 +32,8 @@
 							<i class="icofont icofont-phone-circle"></i>
 						</div>
 						<div class="single-address-dec">
-							<h4>Give a call</h4>
-							<p>Phone: 123-456-0975</p>
-							<p>Phone: 123-456-0975</p>
+							<h4>Give us a call</h4>
+							<p>Phone: +44 7418363838</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">quick call</a>
@@ -64,8 +63,8 @@
 						</div>
 						<div class="single-address-dec">
 							<h4>Lets's have a chat</h4>
+                            <p>Whatsapp: +44 7418363838</p>
 							<p>Telegram: https://t.me/mazoneinvestadmin </p>
-							<p>Fax: 321-654-0975</p>
 						</div>
 						<div class="single-address-link">
 							<a href="#">click here</a>

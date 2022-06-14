@@ -47,7 +47,7 @@ class Invested extends Notification
                     ->subject('Invested')
                     ->line('Hi ' .$this->user->name . ' congrats and thanks for investing with us. Look out for your pay day.')
                     ->action('Profile', url('/profile'))
-                    ->line('You made the right decision!');
+                    ->line('You made the right decision! Please Call Again!!');
     }
 
     /**

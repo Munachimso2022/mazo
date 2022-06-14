@@ -12,7 +12,7 @@
 			<!-- end section title -->
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <strong>enim ad minim veniam</strong>, quis nostrud exercitation ullamco </p>
+					<p>Always make it a duty to give us feedback on our services, <strong>If we do you good, tell others, we'll reward you. If we do you bad, tell us, we'll amend.</strong>We hope to serve you the best!</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-12 text-left text-lg-right text-md-right">
 					<a href="#" class="btn-style btn-filled btn-filled-2">More News <i class="icofont icofont-caret-right"></i></a>

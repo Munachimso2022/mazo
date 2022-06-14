@@ -5,7 +5,7 @@
 				<div class="col-lg-8 col-md-8 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
 					<div class="calltoaction-two-wrap">
 						<h4>Need Team Service?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do<br>incididunt ut labore et dolore magna aliqua.</p>
+						<p>We will be delighted to partner with you. Our watchword is Together Everyone Achieves More (TEAM).<br>Kindly talk to us, let's be team mate on this financial journey.</p>
 					</div>
 				</div>
 				<!-- end col -->
