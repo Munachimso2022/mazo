@@ -28,7 +28,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-      @include('dashboard\partials\_sidebarnav')
+      @include('dashboard.partials._sidebarnav')
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->

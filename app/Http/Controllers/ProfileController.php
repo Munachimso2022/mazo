@@ -21,7 +21,7 @@ class ProfileController extends Controller
         $wallet = Wallet::where('user_id', '=', $user->id)->first();
         $offers = Offer::all();
         $addres = Address::all();
-        $funds = Fundaccount::where('process', 0)->get();
+        $funds = Fundaccount::where('process', $user->id)->get();
 
 
         return view('pages.profile.index')

@@ -14,7 +14,8 @@
 							<ul>
 								@if(Auth::check())
 								<li>
-									<form action="">
+									<form action="/logout" method="POST">
+										@csrf 
 										<button class="btn btn-sm">Log Out</button>
 									</form>
 								</li>

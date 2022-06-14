@@ -24,9 +24,11 @@
 							<p>Call Us</p>
                             <h6>123-456-0975</h6>
                         </div>
+						@if(!Auth::check())
 						<div class="header-info-box">
-                            <a href="#" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
+                            <a href="/register" class="quote-btn">Get Started <i class="icofont icofont-caret-right"></i></a>
                         </div>
+						@endif
 					</div>
 					<!-- end col -->
 				</div>

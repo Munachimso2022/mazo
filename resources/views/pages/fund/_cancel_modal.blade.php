@@ -13,7 +13,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <a href="{{route('cancel.request', [$add->id])}}" class="btn btn-primary">Delete</a>
+        <a href="{{route('cancel.request', [$drawal->id])}}" class="btn btn-primary">Delete</a>
       </div>
     </div>
   </div>
