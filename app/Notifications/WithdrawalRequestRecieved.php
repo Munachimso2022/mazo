@@ -47,8 +47,9 @@ class WithdrawalRequestRecieved extends Notification
                     ->subject('Withdrawal Request Recieved')
                     ->greeting('Hello! ' .$this->user->name)
                     ->line('Your request for withdrawal has been recieved. Admin will process it shortly.')
+                    ->line('If you do not recognize this action, kindly contact our Customer Support.')
                     //->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+                    ->line('Thank you for choosing Mazoneinvest Company!');
     }
 
     /**
