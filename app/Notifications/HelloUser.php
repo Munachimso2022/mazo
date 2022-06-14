@@ -42,12 +42,12 @@ class HelloUser extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('Welcome to Mazone Investment Co.')
+                    ->subject('Welcome to Mazoneinvest Company.')
                     ->greeting('Hello! '.$this->user->name)
-                    ->line('You are welcome to Mazone Investment Co.')
+                    ->line('You are welcome to Mazoneinvest Company.')
                     ->line('We are more than delighted to have you.')
                     ->action('Complete Your Profile', url('/settings'))
-                    ->line('Thank you for using our platform!');
+                    ->line('Thank you for choosing our platform!');
     }
 
     /**
