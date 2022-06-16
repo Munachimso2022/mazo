@@ -65,11 +65,11 @@
     @include('partials._message')
     <div class="form-group mt-3">
       <label for="" class="form-label">Old Password</label>
-      <input type="text" name="old_password" class="form-control">
+      <input type="password" name="old_password" class="form-control">
     </div>
     <div class="form-group mt-3">
       <label for="" class="form-label">New Password</label>
-      <input type="text" name="new_password" class="form-control">
+      <input type="password" name="new_password" class="form-control">
     </div>
     <div class="form-group mt-3">
       <label for="" class="form-label">Confirm Password</label>
