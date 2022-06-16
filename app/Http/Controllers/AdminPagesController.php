@@ -30,7 +30,11 @@ class AdminPagesController extends Controller
             abort(404);
         }
         $user = User::find($userid);
-        return view('dashboard.users.show')->with('user', $user);
+        // var_dump($user->referrer);die;
+        $ref = User::where('my_code', $user->referrer)->first();
+        // var_dump($ref);die;
+        return view('dashboard.users.show')->with('user', $user)
+                                            ->with('ref', $ref);
     }
 
     public function users(){
@@ -39,6 +43,15 @@ class AdminPagesController extends Controller
             abort(404);
         }
         $users = User::paginate(50);
+        foreach($users as $user){
+            $ref = User::where('my_code', $user->referrer)->first();
+            $user->ref_deets = $ref;
+            if($user->my_code != null){
+                $refsss = User::where('referrer', $user->my_code)->get();
+                $user->ref_count = count($refsss);
+            }
+        }
+        
         $total = count(User::all());
 //        var_dump($total);die;
         return view('dashboard.users.index')->with('users', $users)

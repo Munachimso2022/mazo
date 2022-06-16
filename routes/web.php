@@ -48,17 +48,17 @@ Route::post('/invest/{offerid}', [MiscController::class, 'invest'])->name('inves
 
 
 Route::get('/panel', [AdminPagesController::class, 'home'])->name('admin.home')->middleware(['auth']);
-Route::get('/panel/users', [AdminPagesController::class, 'users'])->name('admin.users');
-Route::get('/panel/packages', [AdminPagesController::class, 'packages'])->name('admin.packages');
-Route::get('/panel/contactus', [AdminPagesController::class, 'contactus'])->name('admin.contact');
-Route::get('/panel/offers', [AdminPagesController::class, 'offers'])->name('admin.offers');
-Route::post('/panel/offers', [AdminPagesController::class, 'offers_new'])->name('admin.offers.new');
-Route::post('/panel/offers/delete/{id}', [AdminPagesController::class, 'offer_delete'])->name('admin.offers.delete');
+Route::get('/panel/users', [AdminPagesController::class, 'users'])->name('admin.users')->middleware(['auth']);
+Route::get('/panel/packages', [AdminPagesController::class, 'packages'])->name('admin.packages')->middleware(['auth']);
+Route::get('/panel/contactus', [AdminPagesController::class, 'contactus'])->name('admin.contact')->middleware(['auth']);
+Route::get('/panel/offers', [AdminPagesController::class, 'offers'])->name('admin.offers')->middleware(['auth']);
+Route::post('/panel/offers', [AdminPagesController::class, 'offers_new'])->name('admin.offers.new')->middleware(['auth']);
+Route::post('/panel/offers/delete/{id}', [AdminPagesController::class, 'offer_delete'])->name('admin.offers.delete')->middleware(['auth']);
 
-Route::get('/panel/address', [AdminPagesController::class, 'address'])->name('admin.address');
-Route::post('/panel/address/new', [AdminPagesController::class, 'addressStore'])->name('admin.address.new');
-Route::post('/panel/address/edit/{target}', [AdminPagesController::class, 'editAddress'])->name('admin.address.edit');
-Route::get('/panel/address/delete/{target}', [AdminPagesController::class, 'deleteAddress'])->name('admin.address.delete');
+Route::get('/panel/address', [AdminPagesController::class, 'address'])->name('admin.address')->middleware(['auth']);
+Route::post('/panel/address/new', [AdminPagesController::class, 'addressStore'])->name('admin.address.new')->middleware(['auth']);
+Route::post('/panel/address/edit/{target}', [AdminPagesController::class, 'editAddress'])->name('admin.address.edit')->middleware(['auth']);
+Route::get('/panel/address/delete/{target}', [AdminPagesController::class, 'deleteAddress'])->name('admin.address.delete')->middleware(['auth']);
 Route::post('/panel/search', [SearchController::class, 'searchUser'])->name('search')->middleware(['auth']);
 Route::get('/panel/user/{username}/{userid}', [AdminPagesController::class, 'showuser'])->name('panel.user.profile')->middleware(['auth']);
 Route::get('/panel/topup/{userid}', [MiscController::class, 'topup'])->name('panel.topup')->middleware(['auth']);

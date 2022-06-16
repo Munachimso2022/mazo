@@ -73,7 +73,7 @@
     </div>
     <div class="form-group mt-3">
       <label for="" class="form-label">Confirm Password</label>
-      <input type="text" name="confirm" class="form-control">
+      <input type="text" name="new_password_confirmation" class="form-control">
     </div>
     <div class="form-group mt-4">
       <button style="float: right; width:50%; background-color:#f7921a;" class="btn btn-sm btn-primary">

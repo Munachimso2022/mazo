@@ -12,6 +12,7 @@ use App\Models\Wallet;
 use App\Notifications\WithdrawalRequestRecieved;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 
 class ProfileController extends Controller
@@ -158,6 +159,28 @@ class ProfileController extends Controller
     public function cancelRequest($reqId){
         $req = ModelsRequest::find($reqId);
         $req->delete();
+        return redirect()->back();
+    }
+
+    public function passwordReset(Request $request){
+        $user = User::find(Auth::user()->id);
+        $request->validate([
+            'old_password'=>'required|string',
+            'new_password'=>'required|string',
+            'new_password_confirmation'=>'required|string'
+        ]);   
+
+        if($request->new_password != $request->new_password_confirmation){
+            Session::flash('fail_password', 'password mis-match');
+            return redirect()->back();
+        }
+        if(!Hash::check($request->old_password, $user->password)){
+            Session::flash('fail_password', 'Incorrect password');
+            return redirect()->back();
+        }
+        $user->password = Hash::make($request->new_password);
+        $user->save();
+        Session::flash('good_password', 'Password changed.');
         return redirect()->back();
     }
 

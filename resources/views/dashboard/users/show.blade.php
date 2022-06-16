@@ -1,7 +1,12 @@
 @extends('layouts.dashboard')
 
 @section('head')
-
+<style>
+  .user-deets{
+    display: flex !important;
+    grid-gap: 1rem;
+  }
+</style>
 @endsection 
 
 @section('content')
@@ -20,49 +25,59 @@
     <div class="">
       @include('partials._message')
     </div>
-    <div class="">
+    <div class="user-deets">
       <span><b>Username:</b></span>
       <span><p>{{$user->name}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Firstname:</b></span>
       <span><p>{{$user->firstname}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Lastname:</b></span>
       <span><p>{{$user->lastname}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
+      <span><b>Referrer:</b></span>
+      <span>
+        @if($ref != null)
+        <p><a href="{{route('panel.user.profile', [$ref->name, $ref->id])}}">{{$ref->name}}</a></p>
+        @endif
+      </span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="user-deets">
       <span><b>Email:</b></span>
       <span><p>{{$user->email}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Nationality:</b></span>
       <span><p>{{$user->country}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Gender:</b></span>
       <span><p>{{$user->gender}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Birthday:</b></span>
       <span><p>{{$user->birthday}}</p></span>
     </div>
   </div>
   <div class="container">
-    <div class="">
+    <div class="user-deets">
       <span><b>Balance:</b></span>
       <span><p>${{$user->wallet->balace}}</p></span>
     </div>
