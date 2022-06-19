@@ -12,6 +12,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
+// use App\Models\Request as RequestModel;
+
+
 class MiscController extends Controller
 {
     public function topup(Request $request, $id){
@@ -83,6 +86,23 @@ class MiscController extends Controller
         Session::flash('success', 'User has been ublocked.');
         return redirect()->back();
     }
+
+
+    public function approveRequest($id, $amount){
+        $request = ModelsRequest::find($id);
+
+        $requestOwner = User::find($request->user_id);
+
+        $userWallet = Wallet::where('user_id', $requestOwner->id)->first();
+        if((float)$userWallet->balance < (float)$amount){
+
+        }
+        $userWallet->balace = (float)$userWallet->balance - (float)$amount;
+
+        Session::flash('success', 'Amount have been substracted from users wallet.');
+        return redirect()->back();
+    }
+
 
 
 }

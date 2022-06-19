@@ -18,6 +18,7 @@
       <th scope="col">Amount</th>
       <th scope="col">Balance</th>
       <th scope="col">Address</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>
@@ -28,7 +29,17 @@
       <td>{{$req->amount}}</td>
       <td>{{$req->user->wallet->balace}}</td>
       <td>{{$req->add}}</td>
+      <td>
+        @if($req->fullfill ==0)
+
+        <button class="btn btn-primary" data-toggle="modal" data-target="#request-done-{{$req->id}}">Done</button>
+        @else
+
+        <button class="btn btn-danger">Reverse</button>
+        @endif
+      </td>
     </tr>
+    @include('dashboard.requests.request_modal')
    @endforeach
   </tbody>
 </table>
