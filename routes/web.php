@@ -53,7 +53,7 @@ Route::get('/panel/packages', [AdminPagesController::class, 'packages'])->name('
 Route::get('/panel/contactus', [AdminPagesController::class, 'contactus'])->name('admin.contact')->middleware(['auth']);
 Route::get('/panel/offers', [AdminPagesController::class, 'offers'])->name('admin.offers')->middleware(['auth']);
 Route::post('/panel/offers', [AdminPagesController::class, 'offers_new'])->name('admin.offers.new')->middleware(['auth']);
-Route::post('/panel/offers/delete/{id}', [AdminPagesController::class, 'offer_delete'])->name('admin.offers.delete')->middleware(['auth']);
+Route::get('/panel/offers/delete/{id}', [AdminPagesController::class, 'offer_delete'])->name('admin.offers.delete')->middleware(['auth']);
 
 Route::get('/panel/address', [AdminPagesController::class, 'address'])->name('admin.address')->middleware(['auth']);
 Route::post('/panel/address/new', [AdminPagesController::class, 'addressStore'])->name('admin.address.new')->middleware(['auth']);
