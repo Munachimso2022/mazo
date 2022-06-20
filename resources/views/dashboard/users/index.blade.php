@@ -1,7 +1,13 @@
 @extends('layouts.dashboard')
 
 @section('head')
-
+<style>
+  @media(max-width:700px){
+    .mobile_target{
+      display: none;
+    }
+  }
+</style>
 @endsection 
 
 @section('content')
@@ -16,9 +22,9 @@
       <tr>
         <th scope="col">#id</th>
         <th scope="col">Username</th>
-        <th scope="col">Email</th>
-        <th scope="col">Referrer</th>
-        <th scope="col">Total Referrals</th>
+        <th scope="col" class="mobile_target">Email</th>
+        <th scope="col" class="mobile_target">Referrer</th>
+        <th scope="col" class="mobile_target">Total Referrals</th>
         <th scope="col">Handle</th>
       </tr>
     </thead>
@@ -27,15 +33,15 @@
       <tr>
         <th scope="row">{{$user->id}}</th>
         <td>{{$user->name}}</td>
-        <td>{{$user->email}}</td>
-        <td>
+        <td  class="mobile_target">{{$user->email}}</td>
+        <td  class="mobile_target">
           @if($user->ref_deets != null)
           <a href="">{{$user->ref_deets->name}}</a>
           @else 
             <span>Nill</span>
           @endif
         </td>
-        <td>{{$user->ref_count}} people</td>
+        <td  class="mobile_target">{{$user->ref_count}} people</td>
         <td>
           <a href="{{route('panel.user.profile', [$user->name, $user->id])}}" t class="btn btn-primary btn-sm">view</a>
         </td>

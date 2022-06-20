@@ -1,7 +1,13 @@
 @extends('layouts.dashboard')
 
 @section('head')
-
+<style>
+  @media(max-width:700px){
+    .mobile_target{
+      display: none;
+    }
+  }
+</style>
 @endsection 
 
 @section('content')
@@ -20,8 +26,8 @@
       <tr>
         <th scope="col">#id</th>
         <th scope="col">name</th>
-        <th scope="col">title</th>
-        <th scope="col">interest</th>
+        <th scope="col" class="mobile_target">title</th>
+        <th scope="col" class="mobile_target">interest</th>
         <th scope="col">Handle</th>
       </tr>
     </thead>
@@ -30,9 +36,9 @@
       <tr>
         <th scope="row">{{$offer->id}}</th>
         <td>{{$offer->name}}</td>
-        <td>{{$offer->title}}</td>
-        <td>{{$offer->interest}}</td>
-        <td>
+        <td class="mobile_target">{{$offer->title}}</td>
+        <td class="mobile_target">{{$offer->interest}}</td>
+        <td style="display: flex;">
           <button class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#view-{{$offer->id}}">View</button>
           <button  class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#delete-{{$offer->id}}">Delete</button>
         </td>

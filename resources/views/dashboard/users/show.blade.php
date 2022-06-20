@@ -51,6 +51,12 @@
         @endif
       </span>
     </div>
+    <!-- <div class="user-deets">
+      <span><b>Total Referrals:</b></span>
+      <span>
+        {{$user->ref_count}} people
+      </span>
+    </div> -->
   </div>
   <div class="container">
     <div class="user-deets">

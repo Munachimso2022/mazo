@@ -1,7 +1,14 @@
 @extends('layouts.dashboard')
 
 @section('head')
-
+<style>
+  @media(max-width:800px){
+    .mobile_target{
+      display: none;
+    }
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @endsection 
 
 @section('content')
@@ -16,8 +23,9 @@
       <th scope="col">#id</th>
       <th scope="col">Username</th>
       <th scope="col">Amount</th>
-      <th scope="col">Balance</th>
-      <th scope="col">Address</th>
+      <th class="mobile_target" scope="col">Balance</th>
+      <th class="mobile_target" scope="col">Address</th>
+      <th class="mobile_target">Status</th>
       <th>Actions</th>
     </tr>
   </thead>
@@ -27,16 +35,23 @@
       <th scope="row">{{$req->id}}</th>
       <td><a href="{{route('panel.user.profile', [$req->user->name, $req->user->id])}}">{{$req->user->name}}</a></td>
       <td>{{$req->amount}}</td>
-      <td>{{$req->user->wallet->balace}}</td>
-      <td>{{$req->add}}</td>
-      <td>
-        @if($req->fullfill ==0)
-
-        <button class="btn btn-primary" data-toggle="modal" data-target="#request-done-{{$req->id}}">Done</button>
-        @else
-
-        <button class="btn btn-danger">Reverse</button>
+      <td class="mobile_target">{{$req->user->wallet->balace}}</td>
+      <td class="mobile_target">{{$req->add}}</td>
+      <td class="mobile_target">@if($req->fullfill == 0)
+        <b>Paid</b>
+        @elseif($req->fullfill == 1)
+        <b>Nill</b>
         @endif
+      </td>
+      <td style="display: flex;">
+        @if($req->fullfill ==0)
+          <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#request-done-{{$req->id}}">Done</button>
+        @else
+          <button class="btn btn-danger">Reverse</button>
+        @endif
+          <button class="btn btn-sm" data-toggle="modal" data-target="#request-see-{{$req->id}}">
+            <i class="fa-solid fa-eye fa-2x"></i>
+          </button>
       </td>
     </tr>
     @include('dashboard.requests.request_modal')

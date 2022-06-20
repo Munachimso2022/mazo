@@ -1,7 +1,19 @@
 @extends('layouts.dashboard')
 
 @section('head')
-
+<style>
+  .action{
+    display: none;
+  }
+  @media(max-width:700px){
+    .action{
+      display: flex;
+    }
+    .mobile_target{
+      display: none;
+    }
+  }
+</style>
 @endsection 
 
 @section('content')
@@ -15,9 +27,10 @@
     <tr>
       <th scope="col">#id</th>
       <th scope="col">Username</th>
-      <th scope="col">Amount</th>
-      <th scope="col">Date</th>
-      <th scope="col">Offer Name</th>
+      <th scope="col" class="">Amount</th>
+      <th scope="col" class="mobile_target">Date</th>
+      <th scope="col" class="mobile_target">Offer Name</th>
+      <th class="action">Action</th>
     </tr>
   </thead>
   <tbody>
@@ -30,9 +43,13 @@
       <th scope="row">{{$invest->id}}</th>
       <td><a href="">{{$invest->user->name}}</a></td>
       <td>{{$invest->amount}}</td>
-      <td>{{$invest->created_at}}</td>
-      <td>{{$offer->name}}</td>
+      <td class="mobile_target">{{$invest->created_at}}</td>
+      <td class="mobile_target">{{$offer->name}}</td>
+      <td class="action">
+        <button class="btn btn-sm" data-toggle="modal" data-target="#investment-{{$offer->id}}">View</button>
+      </td>
     </tr>
+    @include('dashboard.userinvestments._modal')
    @endforeach
   </tbody>
 </table>
