@@ -19,7 +19,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-        <a href="" class="btn btn-primary">Yes Confirm</a>
+        <a href="{{route('withdraw.approve', [$req->id, $req->amount])}}" class="btn btn-primary">Yes Confirm</a>
       </div>
     </div>
   </div>

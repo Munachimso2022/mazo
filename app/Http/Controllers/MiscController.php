@@ -8,8 +8,10 @@ use App\Models\Request as ModelsRequest;
 use App\Models\User;
 use App\Models\Wallet;
 use App\Notifications\Invested;
+use App\Notifications\WithdrawalApproved;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Session;
 
 // use App\Models\Request as RequestModel;
@@ -88,16 +90,35 @@ class MiscController extends Controller
     }
 
 
-    public function approveRequest($id, $amount){
+    public function approveWithdraw($id, $amount){
+        
         $request = ModelsRequest::find($id);
 
         $requestOwner = User::find($request->user_id);
 
         $userWallet = Wallet::where('user_id', $requestOwner->id)->first();
-        if((float)$userWallet->balance < (float)$amount){
-
+        // var_dump([$id, $amount, $userWallet->balace]);die;
+        $balance = (float)$userWallet->balace;
+        $amt = (float)$amount;
+        if($balance < $amt){
+            // print((float)$userWallet->balace .'  ' . (float)$amount);die;
+            Session::flash('failed', 'This user dont have up this amount in the system.');
+            return redirect()->back();
         }
-        $userWallet->balace = (float)$userWallet->balance - (float)$amount;
+        if($request->fullfilled ==1){
+            // print((float)$userWallet->balace .'  ' . (float)$amount);die;
+            Session::flash('failed', 'You have fullfilled this payment');
+            return redirect()->back();
+        }
+        // $bal = (int)$userWallet->balance;
+        $amount = (float)$amount;
+        // var_dump($balance);die;
+        $userWallet->balace = ($balance - $amount); 
+        $userWallet->save();
+        $request->fullfilled = 1;
+        $request->save();
+
+        Notification::sendNow($requestOwner, new WithdrawalApproved($requestOwner, $request));
 
         Session::flash('success', 'Amount have been substracted from users wallet.');
         return redirect()->back();

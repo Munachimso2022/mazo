@@ -16,9 +16,12 @@ class WithdrawalApproved extends Notification
      *
      * @return void
      */
-    public function __construct()
+    protected $user;
+    protected $offer;
+    public function __construct($user, $offer)
     {
-        //
+        $this->user = $user;
+        $this->offer = $offer;
     }
 
     /**
@@ -41,8 +44,9 @@ class WithdrawalApproved extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
+                    ->greeting('Hello '.$this->user->name)
+                    ->line('Your withdrawal request of '.$this->offer->amount . ' has been approved.')
+                    // ->action('Notification Action', url('/'))
                     ->line('Thank you for using our application!');
     }
 

@@ -68,6 +68,7 @@ Route::get('/panel/user/addfund/{userid}/{amount}/{fundingID}', [AdminPagesContr
 Route::get('/panel/users/investments', [MiscController::class, 'user_investments'])->name('user_investments')->middleware(['auth']);
 Route::get('/panel/block/{userid}', [MiscController::class, 'blockuser'])->name('block.user')->middleware(['auth']);
 Route::get('/panel/unblock/{userid}', [MiscController::class, 'un_blockuser'])->name('unblock.user')->middleware(['auth']);
+Route::get('panel/withdraw/approve/{id}/{amount}', [MiscController::class, 'approveWithdraw'])->name('withdraw.approve')->middleware(['auth']);
 
 
 // Route::get('/', function () {

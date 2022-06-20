@@ -21,6 +21,11 @@
 											<!-- <li><a href="gallery.html">Gallery</a></li> -->
 											<li><a href="pricing.html">Our Pricing</a></li>
 											<li><a href="/faq">FAQ</a></li>
+											@if(Auth::check())
+												@if(Auth::user()->access == 'admin')
+												<li><a href="/panel">Panel</a></li>
+												@endif
+											@endif
 
 											<!-- <li><a href="error.html">404</a></li> -->
 										</ul>

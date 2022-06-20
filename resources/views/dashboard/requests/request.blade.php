@@ -28,6 +28,9 @@
       <th class="mobile_target">Status</th>
       <th>Actions</th>
     </tr>
+    <tr>
+      @include('partials._message')
+    </tr>
   </thead>
   <tbody>
    @foreach($requests as $req)
@@ -37,15 +40,15 @@
       <td>{{$req->amount}}</td>
       <td class="mobile_target">{{$req->user->wallet->balace}}</td>
       <td class="mobile_target">{{$req->add}}</td>
-      <td class="mobile_target">@if($req->fullfill == 0)
-        <b>Paid</b>
-        @elseif($req->fullfill == 1)
+      <td class="mobile_target">@if($req->fullfilled == 0)
         <b>Nill</b>
+        @elseif($req->fullfilled == 1)
+        <b>Paid</b>
         @endif
       </td>
       <td style="display: flex;">
-        @if($req->fullfill ==0)
-          <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#request-done-{{$req->id}}">Done</button>
+        @if($req->fullfilled ==0)
+          <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#request-done-{{$req->id}}">Confirm</button>
         @else
           <button class="btn btn-danger">Reverse</button>
         @endif
