@@ -62,7 +62,7 @@
 								<div class="acc-content current">
 									<div class="content">
 										<ul>
-											<li><i class="icofont icofont-ui-press"></i> You can by and sell bitcoin online and offline depending on your locality</li>
+											<li><i class="icofont icofont-ui-press"></i> You can buy and sell bitcoin online and offline depending on your locality</li>
 											<li><i class="icofont icofont-ui-press"></i> To buy and sell online you need to download and register a bitcoin wallet esspecially a wallet that is convinent to your resident country. After registeration, you maybe required to verrify your identity before you can buy/sell.</li>
 											<li><i class="icofont icofont-ui-press"></i> If your identity is verified, you maybe asked to choose a payment method. After this, you are just a click away; if the wallet doesn't use P2P, you just click buy/sell and authomatically you sell/buy according to the current price.</li>
 											<li><i class="icofont icofont-ui-press"></i> P2P means Peer-To-Peer, some wallets like Binance has a market-like page where you can select your desirable buyer/seller where you can make an order and get response from your chosen vendor ASAP.</li>
@@ -72,7 +72,7 @@
                         </li>
                         <li class="accordion block">
                             <div class="acc-btn">
-                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can i transfer bitcoin?</div>
+                                <div class="icon-outer"><span class="icon icofont icofont-ui-press"></span></div>How can I transfer bitcoin?</div>
                             <div class="acc-content">
                                 <div class="content">
                                     <p> Contact our online support or telegram admin to get the company's wallet address and go to your wallet; you'll see either of these: Send, Transfer or Withdraw. Paste our company's wallet address in a field provided and complete the transaction.</p>
