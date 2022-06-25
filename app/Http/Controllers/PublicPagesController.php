@@ -51,8 +51,8 @@ class PublicPagesController extends Controller
 
     public function withdraw(){
 
-        $addresses = Userwallet::all();
-        $withs = ModelsRequest::all();  
+        $addresses = Userwallet::where('user_id', Auth::user()->id)->get();
+        $withs = ModelsRequest::where('user_id', Auth::user()->id)->get();  
 
         return view('pages.fund.withdraw')->with('adds', $addresses)
                         ->with('withdrawals', $withs);

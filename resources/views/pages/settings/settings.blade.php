@@ -7,11 +7,15 @@
 @section('content')
 <div class="container" style="margin-bottom:5rem;">
   <div style="margin-top: 5rem;" class=""></div>
+ 
   <form action="{{route('settings.store')}}" method="POST" enctype="multipart/form-data">
     @csrf 
     <div class="form-grop">
       <h2 class="text-center">General</h2>
       <p class="text-center">Update Profile Details</p>
+      <div class="" style="display:flex; justify-content:center; align-items:center;">
+        <img style="width: 8rem; height:8rem; border-radius:50%;" src="{{ asset('BlogPhotos/'.$loggedUser->avatar) }}" alt="">
+      </div>
     </div>
     @include('partials._settings_message')
     <div class="form-group mt-4">
