@@ -11,7 +11,7 @@
                                 </div>
 								<div class="footer-logo-text">
                                     <h3>Mazoneinvest</h3>
-                                    <p>Bitcoin Trading Template</p>
+                                    <p>Bitcoin Trading Company</p>
                                 </div>
 							</a>
                         </div>
@@ -98,7 +98,7 @@
 								</div>
 								<div class="single-fcontact-des">
 									<h6>Phone Number:</h6>
-									<p>123-456-0975</p>
+									<p>+44 7418363838</p>
 								</div>
 							</div>
 							<div class="single-fcontact">

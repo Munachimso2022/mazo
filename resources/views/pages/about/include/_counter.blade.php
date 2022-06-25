@@ -20,7 +20,7 @@
 						<div class="col-lg-6 col-md-6 col-12 counter-wrapper-inner">
 							<div class="single-counter">
 								<h3 class="timer">85</h3>
-								<p>ATM</p>
+								<p>NFT</p>
 							</div>							
 						</div>
 						<!-- end col -->	 
