@@ -53,5 +53,6 @@
    @endforeach
   </tbody>
 </table>
+{{$invests->links()}}
 </div>
 @endsection 

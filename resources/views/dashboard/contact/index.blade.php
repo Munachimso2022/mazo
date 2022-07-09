@@ -35,5 +35,8 @@
       @endforeach
     </tbody>
   </table>
+  <div class="">
+    {{$messages->links()}}
+  </div>
 </div>
 @endsection 

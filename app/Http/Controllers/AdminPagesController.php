@@ -134,7 +134,7 @@ class AdminPagesController extends Controller
         if(!Gate::allows('isuser', $userLogged)) {
             abort(404);
         }
-        $add = Address::all();
+        $add = Address::paginate(50);
         return view('dashboard.address.address')
             ->with('adds', $add);
     }
