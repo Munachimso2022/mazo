@@ -115,8 +115,8 @@ class MiscController extends Controller
         // var_dump($balance);die;
         $userWallet->balace = ($balance - $amount); 
         $userWallet->save();
-        $request->fullfilled = 1;
-        $request->save();
+        // $request->fullfilled = 1;
+        $request->delete();
 
         Notification::sendNow($requestOwner, new WithdrawalApproved($requestOwner, $request));
 

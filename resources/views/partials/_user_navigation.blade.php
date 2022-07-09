@@ -24,6 +24,11 @@
 											<li><a href="{{route('settings.index')}}">Settings</a></li>
 											<li><a href="">Fund Wallet</a></li>
 											<li><a href="{{route('withdraw')}}">Withdraw</a></li>
+											@if(Auth::check())
+												@if(Auth::user()->access == 'admin')
+												<li><a href="/panel">Panel</a></li>
+												@endif
+											@endif
 											<!-- <li><a href="single-service.html">Invest</a></li> -->
 											<!-- <li><a href="single-service.html">Cryptocurrency</a></li> -->
 										</ul>

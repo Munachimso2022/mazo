@@ -49,8 +49,6 @@
       <td style="display: flex;">
         @if($req->fullfilled ==0)
           <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#request-done-{{$req->id}}">Confirm</button>
-        @else
-          <button class="btn btn-danger">Reverse</button>
         @endif
           <button class="btn btn-sm" data-toggle="modal" data-target="#request-see-{{$req->id}}">
             <i class="fa-solid fa-eye fa-2x"></i>
